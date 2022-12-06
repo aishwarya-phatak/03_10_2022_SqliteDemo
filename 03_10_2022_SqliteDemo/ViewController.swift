@@ -13,6 +13,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         var dbHelper = DBHelper()
+        dbHelper.insertEmployeeRecordsIntoEmployeeTable(empId: 10, empName: "Sachin", empCity: "Pune")
+        dbHelper.insertEmployeeRecordsIntoEmployeeTable(empId: 11, empName: "Sachin", empCity: "Pune")
         
     }
 }

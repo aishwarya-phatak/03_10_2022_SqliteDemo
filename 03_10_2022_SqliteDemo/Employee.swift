@@ -16,11 +16,6 @@ class Employee{
         self.empName = empName
         self.empCity = empCity
     }
-    
-    deinit{
-        
-    
-    }
 }
 
-var emp1 = Employee(empId: 10, empName: "ABC", empCity: "XYZ")
+//var emp1 = Employee(empId: 10, empName: "ABC", empCity: "XYZ")
