@@ -15,6 +15,10 @@ class ViewController: UIViewController {
         var dbHelper = DBHelper()
         dbHelper.insertEmployeeRecordsIntoEmployeeTable(empId: 10, empName: "Sachin", empCity: "Pune")
         dbHelper.insertEmployeeRecordsIntoEmployeeTable(empId: 11, empName: "Sachin", empCity: "Pune")
-        
+        dbHelper.insertEmployeeRecordsIntoEmployeeTable(empId: 12, empName: "Sachin", empCity: "Pune")
+        dbHelper.insertEmployeeRecordsIntoEmployeeTable(empId: 13, empName: "Sachin", empCity: "Pune")
+        dbHelper.retriveEmployeeRecords()
+        dbHelper.deleteEmpById(empId: 11)
+        dbHelper.retriveEmployeeRecords()
     }
 }
